@@ -45,6 +45,7 @@ body{
     height: 300px;
     justify-content: center;
     padding: 25px;
+
 }
 .img1{
     background-image: url(./img/jumbo.png);
@@ -68,18 +69,14 @@ body{
 .colonna3{
     width: 550px;
     height: 250px;
-    background-color: rgb(72, 151, 199);
-    border: 2px dotted black;
 }
 .colonna4{
     width: 350px;
     height: 250px;
-    background-color: rosybrown;
-    border: 2px dotted black;
-    
+
 }
 .blocco3{
-    background-color: grey;
+    background-color: rgb(233, 229, 229);
 }
 .container4{
     margin: 0;
@@ -188,6 +185,11 @@ ul li{
     color: white;
     margin-top: 15px;
 }
-.img2{
-    background-image: url()
+.item1{
+    height: 245px;
+    width: 500px;
+}
+
+h2{
+    font-size: 30px;
 }
