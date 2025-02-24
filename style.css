@@ -42,7 +42,7 @@ body{
 .container2{
     margin: 0;
     max-width: 1700px;
-    height: 300px;
+    height: 350px;
     justify-content: center;
     padding: 25px;
 
@@ -58,8 +58,7 @@ body{
     background-color: blue;
 }
 .colonna2{
-    width: 700px;
-    height: 250px;
+    width: 700px;s
     color: white;
     text-align: center;
 }
@@ -95,16 +94,13 @@ body{
     background-color: rgba(9, 14, 22, 0.896);
 }
 .colonna6{
-    height: 250px;
     width: 150px;
-    background-color: turquoise;
-    border: 2px dotted white;
+
 }
 .colonna7{
     height: 250px;
     width: 300px;
-    background-color: rgb(174, 96, 96);
-    border: 2px dotted black;
+   padding: 10px;
 }
 .container5{
     margin: 0;
@@ -151,7 +147,7 @@ body{
     align-items: center;
     padding: 20px;
 }
-ul li{
+.prima-lista{
     list-style-type: none;
     display: inline-block;
     padding-right: 15px;
@@ -208,4 +204,34 @@ h2{
     border-radius: 20px;
     color: white;
     margin-top: 15px;
+}
+#ita{
+    height: 15px;
+    width: 25px;
+}
+.vertcial-align{
+    vertical-align: bottom;
+}
+.white-font{
+    color: white;
+}
+.margine-logo{
+    margin-right: 15px;
+}
+.blue{
+    color: rgb(155, 137, 234);
+}
+.seconda-lista{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.list-font-size{
+    font-size: 15x;
+}
+.registra{
+    display: inline-block;
+    background-color: rgb(155, 137, 234);
+    padding: 5px;
+    border-radius: 20px;
+    color: white;
 }
