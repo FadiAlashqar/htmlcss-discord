@@ -6,24 +6,29 @@
 .d-flex{
     display: flex;
 }
+body{
+    font-family: "Mulish";
+}
 .container1{
     margin: 0;
     max-width: 1700px;
-    background-color: lightblue;
+    background-color: blue;
     height: 75px;
-    justify-content: center;
-    align-items: center;
     padding: 20px;
+    color: white;
+    justify-content: space-around;
+    vertical-align: middle;
+
 }
 .colonna{
     height: 35px;
-    width: 200px;
+    width: 100px;
     background-color: orange;
     border: 2px dotted black;
     padding: 6px;
 }
 .middle-column{
-    width: 500px;
+    border: 2px solid black;
 }
 .text-allign{
     text-align: center;
@@ -41,13 +46,21 @@
     justify-content: center;
     padding: 25px;
 }
+.img1{
+    background-image: url(./img/jumbo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+}
 .blocco1{
     background-color: blue;
 }
 .colonna2{
     width: 700px;
     height: 250px;
-    background-color: violet;
+    color: white;
+    text-align: center;
 }
 .blocco2{
     background-color: white;
@@ -141,4 +154,40 @@
     justify-content: center;
     align-items: center;
     padding: 20px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding-right: 15px;
+}
+.mac{
+    display: inline-block;
+    background-color: white;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+    margin-top: 15px;
+}
+.paragrafo1{
+    margin: 0;
+    max-width: 1700px;
+    height: 300px;
+    justify-content: center;
+    padding: 25px;
+    background-image: url(./img/jumbo.png);
+    background-size: cover;
+
+}
+.browser{
+    display: inline-block;
+    background-color:black;
+    padding: 5px;
+    text-align: center;
+    border-radius: 20px;
+    color: white;
+    margin-top: 15px;
+}
+.img2{
+    background-image: url()
 }
